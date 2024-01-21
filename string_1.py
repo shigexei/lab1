@@ -20,5 +20,11 @@ txt3 = "Hello wOrlD"
 txt3 = txt3.lower()
 print(txt3)
 
-txt = "Hello World"
-txt = txt.replace("H", "J")
+txt4 = "Hello World"
+txt4 = txt4.replace("H", "J")
+print(txt4)
+
+age = 36
+txt5 = "My name is John, and I am {}"
+print(txt5.format(age))
+
